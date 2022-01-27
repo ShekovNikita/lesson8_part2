@@ -15,9 +15,9 @@ public class Lesson_8_Strings {
         System.out.println("1. Ввести с консоли строку. Показать номера символов, совпадающих с последним символом строки.");
         System.out.println("Enter your string:");
         Scanner scanner = new Scanner(System.in);
-        String yourString = scanner.nextLine();
-        for (int i = 0; i < yourString.length(); i++) {
-            if (yourString.charAt(i) == yourString.charAt(yourString.length() - 1))
+        String dasdasds = scanner.nextLine();
+        for (int i = 0; i < dasdasds.length(); i++) {
+            if (dasdasds.charAt(i) == dasdasds.charAt(dasdasds.length() - 1))
                 System.out.print(i + 1 + " ");
         }
 
